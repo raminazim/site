@@ -32,3 +32,9 @@ section{
 .show{
     opacity: 1;
 }
+
+a{
+    font-family: codec;
+    color: black;
+    text-decoration-line: none;   
+}
