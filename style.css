@@ -47,11 +47,11 @@ a{
     display: flex;
 }
 
-.logo:nth-child(2) {
+.rd {
     transition-delay: 200ms;
 }
 
 img{
-    width: 100px;
+    width: 50px;
     padding: 5px;
 }
