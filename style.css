@@ -1,20 +1,15 @@
 @font-face {
-    font-family: codec;
-    src: url(Extra/Codec.ttf);
-}
-
-@font-face {
-    font-family: codecbold;
-    src: url(Extra/Codec\ Bold.ttf);
+    font-family: simpel;
+    src: url(Extra/Simpel.otf);
 }
 
 body{
     background-color: #f5f5eb;
-    font-family: codec;
+    font-family: simpel;
 }
 
 .name{
-    font-family: codecbold;
+    font-family: simpel;
 }
 
 section{
@@ -38,7 +33,7 @@ section{
 }
 
 a{
-    font-family: codec;
+    font-family: simpel;
     color: black;
     text-decoration-line: none;   
 }
