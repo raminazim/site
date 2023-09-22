@@ -1,0 +1,61 @@
+@font-face {
+    font-family: simpel;
+    src: url(Extra/Simpel.otf);
+}
+
+body{
+    background-color: #f5f5eb;
+    font-family: simpel;
+}
+
+.name{
+    font-family: simpel;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 4s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+a{
+    font-family: simpel;
+    color: black;
+    text-decoration-line: none;   
+}
+
+.logos{
+    display: flex;
+}
+
+.rd {
+    transition-delay: 200ms;
+}
+
+img{
+    width: 150px;
+    padding: 10px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
