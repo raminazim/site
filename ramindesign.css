@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: #f5f5eb;
+    background-color: #003021;
+    color: white;
     font-family: simpel;
 }
 
@@ -34,7 +35,7 @@ section{
 
 a{
     font-family: simpel;
-    color: black;
+    color: white;
     text-decoration-line: none;   
 }
 
