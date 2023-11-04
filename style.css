@@ -1,61 +1,45 @@
-@font-face {
-    font-family: simpel;
-    src: url(Extra/Simpel.otf);
+body {
+    background-color: #101010;
+    color: #f0f0f0;
+    font-family: 'Helvetica';
 }
 
-body{
-    background-color: #f5f5eb;
-    font-family: simpel;
+.main {
+    text-align: center;
+    padding: 50px;
 }
 
-.name{
-    font-family: simpel;
+button {
+    background-color: #101010;
+    color: #f0f0f0;
+    width: 20%;
+    height: 100cap;
+
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: 3px;
+    border-radius: 15px;
+
+
+    transition: background-color 0.5s, color 0.5s, width 0.5s;
 }
 
-section{
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
-}
+button:hover {
+    background-color: #f0f0f0;
+    color: #101010;
 
-.hidden{
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 4s;
-}
-
-.show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
-
-a{
-    font-family: simpel;
-    color: black;
-    text-decoration-line: none;   
-}
-
-.logos{
-    display: flex;
-}
-
-.rd {
-    transition-delay: 200ms;
-}
-
-img{
-    width: 150px;
-    padding: 10px;
+    width: 25%;
 }
 
 footer {
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    text-align: center;
+    position: fixed;
+
+    padding: 20px;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    opacity: 50%;
 }
