@@ -18,6 +18,7 @@ button{
      border-style: solid;
      border-width: 10px;
      border-radius: 90px;
+     margin-top: 20px;
      transition: 1s;
 }
 
